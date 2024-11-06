@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "control2",
     "slug": "control2",
     "version": "1.0.0",
@@ -8,6 +9,17 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
+=======
+    "name": "proyecto-expoyeremi",
+    "slug": "proyecto-expoyeremi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+>>>>>>> 1908b61867b0143b0d6124bdb62bb7e9167c32ef
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +28,28 @@
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "foregroundImage": "./assets/adaptive-icon.png",
+=======
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+>>>>>>> 1908b61867b0143b0d6124bdb62bb7e9167c32ef
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
+<<<<<<< HEAD
       "favicon": "./assets/favicon.png"
+=======
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+>>>>>>> 1908b61867b0143b0d6124bdb62bb7e9167c32ef
     }
   }
 }
